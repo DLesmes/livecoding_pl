@@ -1,0 +1,50 @@
+Hola, en esta clase vamos a hablar sobre variables, un concepto muy importante en programación.
+Resulta que vamos a imaginarnos este tema de variables como si fueran cajas.
+Las cajas normalmente nos permiten almacenar cosas o también sacar cosas de ellas.
+Y algo característico que tienen las cajas es que pueden tener nombres o etiquetas, y así podemos saber de quién es la caja o qué tiene la caja adentro, en fin, nos va a servir muchísimo ese nombre o esa etiqueta, y así mismo es en programación.
+Imagínate, por ejemplo, que así sería en JavaScript.
+Vamos a colocar primero la palabra clave let, ahí le estamos indicando al programa que vamos a empezar a escribir una variable o que vamos a empezar a crear una caja seguido del nombre o la etiqueta.
+En este caso sería, por ejemplo, caja de Andy.
+Esto qué nos quiere decir que ya estamos creando nuestra caja en donde vamos a almacenar cosas, que en este caso vamos a decirle que es una caja que le pertenece a Andy.
+Este nombre puede ser el que tú quieras, yo le coloqué este, pero fácilmente le puedes colocar el que tú desees, lo importante acá es que uno tenga un nombre descriptivo, es decir, que al leerlo nosotros ya ya sepamos de qué se trata, y otra cosa muy importante es evitar las ambigüedades, es decir, evitar colocarle cosas como CDA.
+Ahí no sabemos eso de qué se trata.
+Entonces la idea es que tratemos de que eso sea súper descriptivo y que al leerlo ya sepamos de qué se trata.
+Seguido de esto, la idea es poder almacenar cosas en esa caja que acabamos de crear.
+Cómo lo hacemos?
+Lo hacemos con un igual y a ese igual le vamos a dar esas cosas que queremos almacenar dentro de esa caja.
+En este caso vamos a decirle que queremos almacenar un juguete que se llama Woody y ahí lo vamos a escribir justamente entre comillas, pueden ser simples o dobles, porque es un texto.
+Entonces así básicamente quedaría nuestra caja que tiene un nombre y que adicional tiene algo por dentro, ya estamos almacenando algo en esas variables.
+Esto en programación justamente se llama tanto la declaración, que es la parte de la creación de la caja, y la asignación que es justamente eso que estamos almacenando en esa caja.
+Eso se ve muy bonito ahí, pero vamos a verlo justamente en el código, así que vamos a nuestro editor de código.
+Vamos a comenzar colocando nuestra palabra clave let, seguido del nombre de la variable, que en este caso sería caja de Andy.
+Allí lo que vamos a hacer es asignarle a esa variable un valor.
+Cómo lo vamos a hacer?
+Con comillas simples en este caso y vamos a escribir un texto.
+En este caso es el nombre de uno de los juguetes de Andy, para poder visualizar el contenido de esa caja o ya hablando en programación es el contenido que tiene esta variable, vamos a utilizar console.log y aquí lo que decimos es caja de Andy, es decir, el nombre de la variable.
+Guardamos y en la terminal lo que hacemos es decir node y vamos a correr ese archivo.
+Aquí ya nos sale justamente lo que contiene esa variable y todo súper bien, ahí nuestro código está funcionando perfecto.
+Ahora, con este tema del nombramiento, esto es demasiado clave e importante, por qué?
+Porque en programación nosotros trabajamos para nuestro yo del futuro, es decir, que nosotros en un futuro, por ejemplo, volvamos a ver este código y nos acordemos de que es lo que estábamos tratando de hacer en ese momento, o incluso trabajar para otras personas, que otras personas entiendan qué es lo que nosotros quisimos decir o desarrollar en ese código.
+Entonces para ello vamos a colocar, por ejemplo por acá, un comentario, vamos a escribir cosas que no serían permitidas y cosas que sí serían permitidas a la hora de escribir nombramientos de de las variables, eso siempre teniendo en cuenta las buenas prácticas en programación.
+Entonces vamos a escribir acá lo no, voy a escribirlo en mayúscula, lo no permitido.
+Excelente, qué cosas no serían permitidas?
+Como por ejemplo, si yo escribo c y luego acá le decimos Woody.
+Funciona, si tú colocas un concert.log de C va a funcionar, pero en un futuro no vamos a saber que esa C era caja.
+Entonces vamos a tratar de evitar ese tipo de cosas.
+Otra cosa que no sería lo ideal sería colocar, por ejemplo, CDA que para nosotros puede ser caja de Andy, pero más adelante tampoco vamos a saber de qué se trataba.
+Otra cosa que no sería lo ideal sería, por ejemplo, colocar pcAndy.
+Por qué?
+Porque acá para nosotros puede ser, por ejemplo, la primera caja de Andy, pero para otra persona PC puede ser computador.
+Entonces ahí ya empezamos con ese tema de las ambigüedades.
+Entonces lo más indicado es que sea lo más descriptivo posible.
+Si realmente ves que el nombre puede ser muy largo, realmente es mejor ponerlo en largo, descriptivo y que lo podamos entender.
+Entonces si en algún momento dices, por ejemplo, eh primer trasteo de Andy, esto es súper largo o lo puedes lo podemos entender como una variable larga, pero realmente es mucho mejor que tengamos ahí ese texto descriptivo y entendible.
+Ya escribimos nuestras primeras variables con JavaScript utilizando justamente nuestra palabra clave let.
+Sin embargo, actualmente en JavaScript no solamente escribimos variables con let sino que también lo hacemos con const.
+Cuál es la diferencia entre las dos?
+Let lo utilizamos normalmente para variables, como su nombre lo indica, algo que va a cambiar también con el tiempo.
+Por ejemplo, esto, un contador.
+Podemos inicializar una variable, es decir, su valor, el primer valorcito que le vamos a poner es cero y después, la idea es que a medida de que escribamos nuestro programa, este contador empiece a cambiar, que posteriormente sea 1, 2, 3 o bueno, dependiendo de cómo sea nuestro programa, pero básicamente let, como es una variable, puede estar cambiando constantemente en el tiempo.
+Sin embargo, const lo utilizamos para variables que son constantes o fijas, es decir que no se van a mover, su valor siempre va a ser el mismo durante todo el programa, como por ejemplo Pi, que ya sabemos que su valor es 3.14, bueno, tiene un poquito más, pero lo podemos dejar por el momento así, solamente un número y así ya se nos quedaría nuestra constante que también nosotros podemos decirle a const variable, a pesar de que ya sepamos que es una constante.
+Podemos trabajar tanto let como const como si fueran variables.
+Cuéntame por favor en los comentarios cómo te quedaron tus variables, qué otras cosas le lograste añadir a ellas, mejor dicho, cuéntanos en los comentarios.
